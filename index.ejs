@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">    <title>Document</title>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>TO DO LIST</h3>
+            <button class="reset-btn">RESET</button>
+        </nav>
+    </header>
+    <div class="form">
+        <form>
+            <div class="search-bar">
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Add..." autocomplete="off">
+                    <button>&#10010</button>
+                </div>
+                <div class="bar">
+                    <select name="todos" class="filter-todo">
+                        <option value="all">all</option>
+                        <option value="completed">Completed</option>
+                        <option value="incompleted">Incompleted</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="list">
+        <ul class="todos">
+            <li>
+                <p>work has been done</p>
+                <div class="icons">
+                    <button class="check-btn">&#10004</button>
+                    <button class="cross-btn">&#10008</button>
+                </div>
+            </li>
+            <li>
+                <p>work has been done</p>
+                <div class="icons">
+                    <button class="check-btn">&#10004</button>
+                    <button class="cross-btn">&#10008</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="search-l">
+        <input type="text" name="search" id="search" placeholder="search..." autocomplete="off">
+        <button>Search</button>
+    </div>
+</body>
+</html>
